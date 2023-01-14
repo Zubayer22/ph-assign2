@@ -166,11 +166,17 @@ nav ul li a{
 
 /* media css start */
 @media only screen and (max-width:576px){
+    .container{
+        padding: 20px;
+    }
     .header-content{
         flex-direction: column;
     }
     nav{
         margin-top: 20px;
+    }
+    nav ul{
+        gap: 20px;
     }
     .group-of-architects{
         padding: 40px 0px 20px 0px;
@@ -187,7 +193,7 @@ nav ul li a{
         width: 100%;
     }
     .feature-content{
-        margin: 0px 0px 30px 20px;
+        margin: 0px 0px 30px 0px;
         width: 100%;
     }
     .feature-list-content{
@@ -201,7 +207,7 @@ nav ul li a{
         font-size: 45px;
         line-height: 40px;
         padding: 40px;
-        margin-left: 100px;
+        margin-left: 70px;
         margin-top: -100px;
     }
 }
