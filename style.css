@@ -306,6 +306,7 @@ footer p{
         margin-top: 20px;
     }
     nav ul{
+        flex-direction: column;
         gap: 20px;
     }
     .group-of-architects{
@@ -316,7 +317,7 @@ footer p{
     }
 
     .feature-area{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .feature-images{
         grid-template-columns: 1fr;
@@ -343,6 +344,7 @@ footer p{
     .all-facts{
         grid-template-columns: 1fr;
         grid-row-gap: 30px;
+        padding: 40px 40px 0px 40px;
     }
     .sponsor-images{
         flex-direction: column;
