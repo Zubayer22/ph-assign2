@@ -274,6 +274,7 @@ input[type=button]{
     color: #ffffff;
     width: 50%;
     background-color: #FF900E;
+    cursor: pointer;
 }
 /* contact end */
 
@@ -333,11 +334,11 @@ footer p{
         padding-left: 0px;
     }
     .feature-list-img h2{
-        font-size: 45px;
+        font-size: 35px;
         line-height: 40px;
-        padding: 40px;
+        padding: 30px;
         margin-left: 50px;
-        margin-top: -100px;
+        margin-top: -50px;
     }
     .all-facts{
         grid-template-columns: 1fr;
